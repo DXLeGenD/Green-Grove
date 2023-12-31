@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("background.jpeg");
+    background: url("images/background/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,16 +20,11 @@ body {
     height: 40px;
     width: 100%;
     box-sizing: border-box;
-    padding: 2px;
+    padding: 5px;
 
 }
 
-.navigate:hover {
-    background-color: white;
-    border: 2px solid whitesmoke;
-    border-radius: 15px;
-    padding: 0 4px;
-}
+
 
 #heading {
     display: inline-block;
@@ -53,6 +48,15 @@ body {
     text-decoration: none;
     color: #1B6B93;
     margin: 0 12px;
+    background-color: rgba(211, 214, 210, 0.708);
+    border: 2px solid rgba(211, 214, 210, 0.708);
+    border-radius: 15px;
+    padding: 0 4px;
+}
+
+.navigate:hover {
+    background-color: white;
+
 }
 
 #subhead {

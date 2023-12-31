@@ -29,7 +29,7 @@
 }
 
 body {
-    background: url("back.jpg");
+    background: url("images/background/back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -78,14 +78,15 @@ body {
     text-decoration: none;
     color: #1B6B93;
     margin: 0 12px;
-
+    background-color: rgba(211, 214, 210, 0.708);
+    border: 2px solid rgba(211, 214, 210, 0.708);
+    border-radius: 15px;
+    padding: 0 4px;
 }
 
 .navigate:hover {
     background-color: white;
-    border: 2px solid whitesmoke;
-    border-radius: 15px;
-    padding: 0 4px;
+
 }
 
 #subhead {
